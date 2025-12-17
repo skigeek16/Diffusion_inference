@@ -1,0 +1,70 @@
+cmake_minimum_required(VERSION 3.15)
+project(StableDiffusionRealInference VERSION 1.0.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Option to specify stable-diffusion.cpp location
+set(SD_CPP_PATH "${CMAKE_CURRENT_SOURCE_DIR}/stable-diffusion.cpp" 
+    CACHE PATH "Path to stable-diffusion.cpp repository")
+
+# Check if stable-diffusion.cpp exists
+if(NOT EXISTS "${SD_CPP_PATH}")
+    message(FATAL_ERROR 
+        "stable-diffusion.cpp not found at: ${SD_CPP_PATH}\n"
+        "Please clone it:\n"
+        "  git clone https://github.com/leejet/stable-diffusion.cpp\n"
+        "  cd stable-diffusion.cpp\n"
+        "  git submodule update --init --recursive\n"
+        "Or specify the path with: -DSD_CPP_PATH=/path/to/stable-diffusion.cpp")
+endif()
+
+# Add stable-diffusion.cpp as subdirectory
+add_subdirectory(${SD_CPP_PATH} ${CMAKE_BINARY_DIR}/stable-diffusion.cpp)
+
+# Include directories
+include_directories(${SD_CPP_PATH})
+
+# Download stb_image_write.h if not present
+set(STB_HEADER "${CMAKE_CURRENT_SOURCE_DIR}/stb_image_write.h")
+if(NOT EXISTS ${STB_HEADER})
+    message(STATUS "Downloading stb_image_write.h...")
+    file(DOWNLOAD 
+        "https://raw.githubusercontent.com/nothings/stb/master/stb_image_write.h"
+        ${STB_HEADER}
+        SHOW_PROGRESS
+    )
+endif()
+
+# Wrapper library
+add_library(sd_wrapper
+    sd_wrapper.cpp
+    sd_wrapper.h
+)
+
+target_link_libraries(sd_wrapper PUBLIC stable-diffusion)
+
+# Example executable
+add_executable(real_sd_example
+    real_model_example.cpp
+)
+
+target_link_libraries(real_sd_example PRIVATE sd_wrapper)
+
+# Installation
+install(TARGETS sd_wrapper real_sd_example
+    LIBRARY DESTINATION lib
+    ARCHIVE DESTINATION lib
+    RUNTIME DESTINATION bin
+)
+
+install(FILES sd_wrapper.h DESTINATION include)
+
+message(STATUS "")
+message(STATUS "Configuration Summary:")
+message(STATUS "  stable-diffusion.cpp path: ${SD_CPP_PATH}")
+message(STATUS "  C++ Standard: ${CMAKE_CXX_STANDARD}")
+message(STATUS "  Build Type: ${CMAKE_BUILD_TYPE}")
+message(STATUS "")
+message(STATUS "After building, download a model:")
+message(STATUS "  See REAL_MODELS.md for instructions")

@@ -1,0 +1,48 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Model files (too large for git)
+models/
+*.ckpt
+*.safetensors
+*.gguf
+*.pth
+*.bin
+
+# Output images
+*.png
+*.jpg
+*.jpeg
+*.ppm
+output_*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Generated files
+*.log
