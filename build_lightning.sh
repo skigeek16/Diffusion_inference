@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Lightning AI Build Script for Stable Diffusion GUI
-# Optimized for H100 GPU
+# Lightning AI Build Script for Stable Diffusion CLI
+# Optimized for H100 GPU (Headless Mode)
 
 set -e
 
 echo "================================"
-echo " Building SD GUI for Lightning AI"
+echo " Building SD CLI for Lightning AI"
 echo "================================"
 echo ""
 
@@ -26,7 +26,8 @@ if [ ! -d "stable-diffusion.cpp" ]; then
     git clone --recursive https://github.com/leejet/stable-diffusion.cpp
 fi
 
-# Create build directory
+# Build stable-diffusion.cpp CLI tool
+cd stable-diffusion.cpp
 rm -rf build
 mkdir -p build
 cd build
@@ -36,7 +37,7 @@ echo ""
 echo "Configuring with CMake..."
 cmake .. \
     -DCMAKE_BUILD_TYPE=Release \
-    -DUSE_CUDA=$USE_CUDA \
+    -DSD_CUBLAS=ON \
     -DGGML_CUDA=ON
 
 # Build
@@ -49,8 +50,8 @@ echo "================================"
 echo " Build Complete!"
 echo "================================"
 echo ""
-echo "Executable: build/bin/Release/sd_gui"
+echo "Executable: stable-diffusion.cpp/build/bin/sd"
 echo ""
 echo "Next steps:"
-echo "1. Download a model to models/"
-echo "2. Run: ./build/bin/Release/sd_gui"
+echo "1. Download a model: wget https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors -O models/sd-v1-5.safetensors"
+echo "2. Generate: ./stable-diffusion.cpp/build/bin/sd -m models/sd-v1-5.safetensors -p 'your prompt' -o output.png"
