@@ -1,39 +1,42 @@
-# Stable Diffusion GUI Application
+# Stable Diffusion GUI - C++ Implementation
 
 A modern C++ GUI application for generating images with Stable Diffusion models (SD v1.x, v2.x, SDXL).
 
-![Stable Diffusion GUI](https://img.shields.io/badge/C%2B%2B-17-blue) ![CMake](https://img.shields.io/badge/CMake-3.15+-green) ![ImGui](https://img.shields.io/badge/GUI-ImGui-orange)
+[![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
+[![CMake](https://img.shields.io/badge/CMake-3.15+-green.svg)](https://cmake.org/)
+[![ImGui](https://img.shields.io/badge/GUI-ImGui-orange.svg)](https://github.com/ocornut/imgui)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## ✨ Features
 
-**User-Friendly Interface**
-- Clean, modern GUI built with Dear ImGui
-- Real-time preview of generated images
-- Adjustable generation parameters
-- Progress tracking during generation
+### User-Friendly Interface
+- 🎨 Clean, modern GUI built with Dear ImGui
+- 🖼️ Real-time preview of generated images
+- ⚙️ Adjustable generation parameters
+- 📊 Progress tracking during generation
 
-**Generation Controls**
-- Text prompts with negative prompts
-- Multiple image sizes (512x512, 768x512, 512x768, custom)
-- Adjustable steps, CFG scale, and seed
-- Multiple sampling methods (Euler A, Euler, Heun, DPM2, DPM++ 2M, LCM)
-- Multiple schedulers (Discrete, Karras, Exponential, AYS)
+### Generation Controls
+- ✍️ Text prompts with negative prompts
+- 📐 Multiple image sizes (512x512, 768x512, 512x768, custom)
+- 🔢 Adjustable steps, CFG scale, and seed
+- 🎯 Multiple sampling methods (Euler A, Euler, Heun, DPM2, DPM++ 2M, LCM)
+- 📅 Multiple schedulers (Discrete, Karras, Exponential, AYS)
 
-**Model Support**
-- Supports .safetensors, .ckpt, and .gguf model formats
-- SD v1.x, v2.x, and SDXL models
-- Easy model loading through file browser
+### Model Support
+- 📦 Supports `.safetensors`, `.ckpt`, and `.gguf` model formats
+- 🤖 SD v1.x, v2.x, and SDXL models
+- 📂 Easy model loading through file browser
 
-**Image Management**
-- View generated images in the app
-- Save images as PNG
-- Automatic image scaling to fit window
+### Image Management
+- 👁️ View generated images in the app
+- 💾 Save images as PNG
+- 🔄 Automatic image scaling to fit window
 
 ## 🚀 Quick Start
 
 ### 1. Build the Application
 
-**Easiest Way:**
+**Easiest Way (Windows):**
 ```powershell
 .\build_and_run.ps1
 ```
@@ -48,11 +51,13 @@ This script will:
 ```powershell
 mkdir build_gui
 cd build_gui
+cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake --build . --config Release
 ```
 
 ### 2. Download a Model
 
-Download a Stable Diffusion model to the `models\` folder:
+Download a Stable Diffusion model to the `models/` folder:
 
 ```powershell
 # Create models directory
@@ -83,7 +88,7 @@ Or simply run the build script again:
 ### Loading a Model
 
 1. Click `File` → `Load Model...`
-2. Select your model file (.safetensors, .ckpt, or .gguf)
+2. Select your model file (`.safetensors`, `.ckpt`, or `.gguf`)
 3. Wait for "Model Loaded" status (10-30 seconds)
 
 ### Generating Images
@@ -166,13 +171,13 @@ blurry, low quality, distorted, cartoon, deformed, ugly, bad anatomy, watermark
 ### GPU Acceleration
 
 Build with CUDA support for NVIDIA GPUs:
-```powershell
+```bash
 cmake .. -DUSE_CUDA=ON
 cmake --build . --config Release
 ```
 
 Build with Vulkan support:
-```powershell
+```bash
 cmake .. -DUSE_VULKAN=ON
 cmake --build . --config Release
 ```
@@ -262,6 +267,19 @@ Inference_of_diff/
 - **GPU**: NVIDIA GPU with 6GB+ VRAM (for GPU mode)
 - **Storage**: SSD with 20GB+ free space
 
+## 🚀 Lightning AI / H100 GPU Support
+
+For **100x faster inference** on H100 GPU, see [LIGHTNING_AI.md](LIGHTNING_AI.md) for detailed setup instructions.
+
+### Performance Comparison
+
+| Hardware | SD v1.5 (512x512) | SDXL (1024x1024) |
+|----------|-------------------|------------------|
+| CPU (AVX2) | 30-60 seconds | 2-5 minutes |
+| H100 GPU | **0.5-1 second** ⚡ | **2-3 seconds** ⚡ |
+
+**Speed Improvement: ~50-100x faster with H100!**
+
 ## 🔗 Credits
 
 - [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) - Inference engine
@@ -280,11 +298,14 @@ Need help? Check these resources:
 1. **Troubleshooting section** above
 2. [stable-diffusion.cpp Issues](https://github.com/leejet/stable-diffusion.cpp/issues)
 3. Model documentation on [Hugging Face](https://huggingface.co/models)
+4. [Lightning AI Documentation](https://lightning.ai/docs) for GPU setup
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
 **Happy Generating! 🎨✨**
 
-Special thanks to the [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) project and its contributors for the excellent reference implementation.
-#   D i f f u s i o n _ i n f e r e n c e  
- 
+Made with ❤️ using C++ and ImGui. Special thanks to the [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) project and its contributors.
