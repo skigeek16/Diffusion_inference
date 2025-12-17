@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\9f12b6ccb6ba798fa5661b6d0ec875eb\imgui-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\9f12b6ccb6ba798fa5661b6d0ec875eb\imgui-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\9f12b6ccb6ba798fa5661b6d0ec875eb\imgui-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\9f12b6ccb6ba798fa5661b6d0ec875eb\imgui-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\9f12b6ccb6ba798fa5661b6d0ec875eb\imgui-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\9f12b6ccb6ba798fa5661b6d0ec875eb\imgui-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\9f12b6ccb6ba798fa5661b6d0ec875eb\imgui-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\9f12b6ccb6ba798fa5661b6d0ec875eb\imgui-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\27a0eb93219b7ed91334296e98870fbe\imgui-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\a2a60971acfbb59ff4b4600f8b9cca4b\imgui-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\REPOS\Inference_of_diff\build_gui\_deps\imgui-subbuild\CMakeFiles\imgui-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A9C64599-50F5-33E8-9098-BE52AB865D9E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

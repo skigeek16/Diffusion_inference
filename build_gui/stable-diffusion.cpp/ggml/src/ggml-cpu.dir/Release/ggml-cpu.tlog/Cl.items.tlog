@@ -1,0 +1,14 @@
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\ggml-cpu.c;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\ggml-cpu.c.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\ggml-cpu.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\ggml-cpu.cpp.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\repack.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\repack.cpp.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\hbm.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\hbm.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\quants.c;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\quants.c.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\traits.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\traits.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\amx\amx.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\amx.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\amx\mmq.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\mmq.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\binary-ops.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\binary-ops.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\unary-ops.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\unary-ops.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\vec.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\vec.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\ops.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\ops.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\arch\x86\quants.c;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\arch\x86\quants.c.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-cpu\arch\x86\repack.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\arch\x86\repack.cpp.obj

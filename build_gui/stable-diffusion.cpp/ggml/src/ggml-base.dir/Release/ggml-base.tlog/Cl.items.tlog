@@ -1,0 +1,8 @@
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml.c;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-base.dir\Release\ggml.c.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-base.dir\Release\ggml.cpp.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-alloc.c;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-base.dir\Release\ggml-alloc.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-backend.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-base.dir\Release\ggml-backend.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-opt.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-base.dir\Release\ggml-opt.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-threading.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-base.dir\Release\ggml-threading.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\ggml-quants.c;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-base.dir\Release\ggml-quants.obj
+D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml\src\gguf.cpp;D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\ggml\src\ggml-base.dir\Release\gguf.obj

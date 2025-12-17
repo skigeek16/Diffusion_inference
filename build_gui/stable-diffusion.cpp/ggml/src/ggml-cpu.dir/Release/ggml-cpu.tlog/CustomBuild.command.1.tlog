@@ -1,0 +1,10 @@
+^D:\REPOS\INFERENCE_OF_DIFF\STABLE-DIFFUSION.CPP\GGML\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/REPOS/Inference_of_diff -BD:/REPOS/Inference_of_diff/build_gui --check-stamp-file D:/REPOS/Inference_of_diff/build_gui/stable-diffusion.cpp/ggml/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

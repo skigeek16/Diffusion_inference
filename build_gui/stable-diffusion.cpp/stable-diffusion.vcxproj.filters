@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\name_conversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\stable-diffusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\tokenize_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\upscaler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\clip.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\conditioner.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\control.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\denoiser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\diffusion_model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\easycache.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\esrgan.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\flux.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ggml_extend.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\gguf_reader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\latent-preview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\llm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\lora.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ltxv.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\mmdit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\name_conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\ordered_map.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\pmid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\preprocessing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\qwen_image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\rng.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\rng_mt19937.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\rng_philox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\rope.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\stable-diffusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\t5.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\tae.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\tokenize_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\unet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\vae.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\vocab.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\vocab_mistral.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\vocab_qwen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\vocab_umt5.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\wan.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\z_image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\stable-diffusion.cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\REPOS\Inference_of_diff\build_gui\stable-diffusion.cpp\thirdparty\zip.dir\$(Configuration)\zip.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71AB407B-6EB1-310D-ADAC-96020CA4F848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{41754D84-D05F-3938-A750-3ECFE3DE3598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C372F46D-CD65-3B87-AB30-6BB3516225AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

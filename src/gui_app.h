@@ -4,6 +4,8 @@
 #include "image_viewer.h"
 #include <GLFW/glfw3.h>
 #include <memory>
+#include <mutex>
+#include <vector>
 
 class GUIApp {
 public:
@@ -47,6 +49,17 @@ private:
     char status_text_[256] = "Ready";
     char model_path_[512] = "";
     bool model_loaded_ = false;
+    
+    // Pending image data from background thread
+    struct PendingImage {
+        std::vector<uint8_t> data;
+        int width = 0;
+        int height = 0;
+        int channels = 0;
+        bool ready = false;
+    };
+    PendingImage pending_image_;
+    std::mutex pending_image_mutex_;
     
     // Settings
     int n_threads_ = 4;

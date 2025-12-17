@@ -1,0 +1,10 @@
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\A2A60971ACFBB59FF4B4600F8B9CCA4B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/REPOS/Inference_of_diff/build_gui/_deps/imgui-subbuild -BD:/REPOS/Inference_of_diff/build_gui/_deps/imgui-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/REPOS/Inference_of_diff/build_gui/_deps/imgui-subbuild/imgui-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

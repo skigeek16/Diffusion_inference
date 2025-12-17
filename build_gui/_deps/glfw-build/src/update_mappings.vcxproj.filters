@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\CMakeFiles\32d178104de9a8a853b102e671780313\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-src\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-src\CMake\GenerateMappings.cmake" />
+    <None Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CD407291-B972-36C3-A3CE-9E937A8FB4AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71AB407B-6EB1-310D-ADAC-96020CA4F848}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

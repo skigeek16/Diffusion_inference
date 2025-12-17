@@ -4,6 +4,7 @@
 #include "imgui_impl_opengl3.h"
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <mutex>
 #define GLFW_EXPOSE_NATIVE_WIN32
 #include <GLFW/glfw3native.h>
 #include <iostream>
@@ -65,6 +66,20 @@ bool GUIApp::initialize() {
 void GUIApp::run() {
     while (!glfwWindowShouldClose(window_)) {
         glfwPollEvents();
+        
+        // Check for pending image from background thread (load on main GL thread)
+        {
+            std::lock_guard<std::mutex> lock(pending_image_mutex_);
+            if (pending_image_.ready) {
+                printf("Main thread: Loading pending image to OpenGL texture\n");
+                image_viewer_->loadImage(pending_image_.data.data(), 
+                                        pending_image_.width, 
+                                        pending_image_.height, 
+                                        pending_image_.channels);
+                pending_image_.ready = false;
+                pending_image_.data.clear();
+            }
+        }
 
         // Start ImGui frame
         ImGui_ImplOpenGL3_NewFrame();
@@ -256,7 +271,7 @@ void GUIApp::renderProgressPanel() {
     
     ImGui::Text("Status: %s", status_text_);
     ImGui::ProgressBar(progress, ImVec2(-1, 30));
-    ImGui::Text("Step %d / %d", current_step_, total_steps_);
+    ImGui::Text("Step %d / %d (is_generating: %d)", current_step_, total_steps_, is_generating_);
 }
 
 void GUIApp::onGenerate() {
@@ -288,6 +303,7 @@ void GUIApp::onGenerate() {
     strcpy(status_text_, "Starting generation...");
     
     generator_->generateAsync(params, [this](int step, int total, const std::string& status) {
+        printf("Progress: step %d/%d - %s\n", step, total, status.c_str());
         current_step_ = step;
         total_steps_ = total;
         strncpy(status_text_, status.c_str(), sizeof(status_text_) - 1);
@@ -295,7 +311,19 @@ void GUIApp::onGenerate() {
         if (step >= total) {
             auto result = generator_->getLastResult();
             if (result.valid) {
-                image_viewer_->loadImage(result.data.data(), result.width, result.height, result.channels);
+                printf("Generation complete! Image size: %dx%d, channels: %d\n", 
+                       result.width, result.height, result.channels);
+                
+                // Store image data for main thread to load
+                std::lock_guard<std::mutex> lock(pending_image_mutex_);
+                pending_image_.data = result.data;
+                pending_image_.width = result.width;
+                pending_image_.height = result.height;
+                pending_image_.channels = result.channels;
+                pending_image_.ready = true;
+                printf("Image queued for main thread loading\n");
+            } else {
+                printf("Generation result invalid!\n");
             }
             is_generating_ = false;
         }

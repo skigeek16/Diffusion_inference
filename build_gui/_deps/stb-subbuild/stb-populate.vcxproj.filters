@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\aa4c8e81af4aad2dc80950f2aefac734\stb-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\aa4c8e81af4aad2dc80950f2aefac734\stb-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\aa4c8e81af4aad2dc80950f2aefac734\stb-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\aa4c8e81af4aad2dc80950f2aefac734\stb-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\aa4c8e81af4aad2dc80950f2aefac734\stb-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\aa4c8e81af4aad2dc80950f2aefac734\stb-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\aa4c8e81af4aad2dc80950f2aefac734\stb-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\aa4c8e81af4aad2dc80950f2aefac734\stb-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\5b0f28793537b3c8a8f66f85a97cef51\stb-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\cbff650ca24e2274d333d374580b8dfb\stb-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\REPOS\Inference_of_diff\build_gui\_deps\stb-subbuild\CMakeFiles\stb-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3C80FEE4-F55D-3423-8B7A-54CEE24923E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

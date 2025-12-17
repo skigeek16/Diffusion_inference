@@ -1,0 +1,10 @@
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\CMAKEFILES\AC1F914EBBD39D0E4A62FFCF5D3D1150\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/REPOS/Inference_of_diff -BD:/REPOS/Inference_of_diff/build_gui --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/REPOS/Inference_of_diff/build_gui/StableDiffusionGUI.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

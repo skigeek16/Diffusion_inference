@@ -1,0 +1,150 @@
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKEFILES\AA4C8E81AF4AAD2DC80950F2AEFAC734\STB-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/tmp/stb-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKEFILES\AA4C8E81AF4AAD2DC80950F2AEFAC734\STB-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\REPOS\Inference_of_diff\build_gui\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/tmp/stb-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKEFILES\AA4C8E81AF4AAD2DC80950F2AEFAC734\STB-POPULATE-UPDATE.RULE
+setlocal
+cd D:\REPOS\Inference_of_diff\build_gui\_deps\stb-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/tmp/stb-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKEFILES\AA4C8E81AF4AAD2DC80950F2AEFAC734\STB-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKEFILES\AA4C8E81AF4AAD2DC80950F2AEFAC734\STB-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\REPOS\Inference_of_diff\build_gui\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKEFILES\AA4C8E81AF4AAD2DC80950F2AEFAC734\STB-POPULATE-BUILD.RULE
+setlocal
+cd D:\REPOS\Inference_of_diff\build_gui\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKEFILES\AA4C8E81AF4AAD2DC80950F2AEFAC734\STB-POPULATE-INSTALL.RULE
+setlocal
+cd D:\REPOS\Inference_of_diff\build_gui\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKEFILES\AA4C8E81AF4AAD2DC80950F2AEFAC734\STB-POPULATE-TEST.RULE
+setlocal
+cd D:\REPOS\Inference_of_diff\build_gui\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKEFILES\5B0F28793537B3C8A8F66F85A97CEF51\STB-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/CMakeFiles/Debug/stb-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKEFILES\CBFF650CA24E2274D333D374580B8DFB\STB-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\REPOS\INFERENCE_OF_DIFF\BUILD_GUI\_DEPS\STB-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild -BD:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild --check-stamp-file D:/REPOS/Inference_of_diff/build_gui/_deps/stb-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

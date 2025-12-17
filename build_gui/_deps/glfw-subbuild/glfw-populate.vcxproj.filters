@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\c78faf85074ce111ea68b4bbe480e6c7\glfw-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\c78faf85074ce111ea68b4bbe480e6c7\glfw-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\c78faf85074ce111ea68b4bbe480e6c7\glfw-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\c78faf85074ce111ea68b4bbe480e6c7\glfw-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\c78faf85074ce111ea68b4bbe480e6c7\glfw-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\c78faf85074ce111ea68b4bbe480e6c7\glfw-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\c78faf85074ce111ea68b4bbe480e6c7\glfw-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\c78faf85074ce111ea68b4bbe480e6c7\glfw-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\58ca0242f6c30749984d75f4f81e6454\glfw-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\558f5e9577015f29f95af47c4465b502\glfw-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\REPOS\Inference_of_diff\build_gui\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E0F7AA61-7112-3786-A0B3-66D0C589CDDF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
