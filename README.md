@@ -286,3 +286,5 @@ Need help? Check these resources:
 **Happy Generating! 🎨✨**
 
 Special thanks to the [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) project and its contributors for the excellent reference implementation.
+#   D i f f u s i o n _ i n f e r e n c e  
+ 
