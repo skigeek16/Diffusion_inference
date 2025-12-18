@@ -7,32 +7,32 @@ A modern C++ GUI application for generating images with Stable Diffusion models 
 [![ImGui](https://img.shields.io/badge/GUI-ImGui-orange.svg)](https://github.com/ocornut/imgui)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## ✨ Features
+##  Features
 
 ### User-Friendly Interface
-- 🎨 Clean, modern GUI built with Dear ImGui
-- 🖼️ Real-time preview of generated images
-- ⚙️ Adjustable generation parameters
-- 📊 Progress tracking during generation
+- Clean, modern GUI built with Dear ImGui
+- Real-time preview of generated images
+- Adjustable generation parameters
+- Progress tracking during generation
 
 ### Generation Controls
-- ✍️ Text prompts with negative prompts
-- 📐 Multiple image sizes (512x512, 768x512, 512x768, custom)
-- 🔢 Adjustable steps, CFG scale, and seed
-- 🎯 Multiple sampling methods (Euler A, Euler, Heun, DPM2, DPM++ 2M, LCM)
-- 📅 Multiple schedulers (Discrete, Karras, Exponential, AYS)
+- Text prompts with negative prompts
+- Multiple image sizes (512x512, 768x512, 512x768, custom)
+- Adjustable steps, CFG scale, and seed
+- Multiple sampling methods (Euler A, Euler, Heun, DPM2, DPM++ 2M, LCM)
+- Multiple schedulers (Discrete, Karras, Exponential, AYS)
 
 ### Model Support
-- 📦 Supports `.safetensors`, `.ckpt`, and `.gguf` model formats
-- 🤖 SD v1.x, v2.x, and SDXL models
-- 📂 Easy model loading through file browser
+- Supports `.safetensors`, `.ckpt`, and `.gguf` model formats
+- SD v1.x, v2.x, and SDXL models
+- Easy model loading through file browser
 
 ### Image Management
-- 👁️ View generated images in the app
-- 💾 Save images as PNG
-- 🔄 Automatic image scaling to fit window
+- View generated images in the app
+- Save images as PNG
+- Automatic image scaling to fit window
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Build the Application
 
@@ -83,7 +83,7 @@ Or simply run the build script again:
 .\build_and_run.ps1
 ```
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Loading a Model
 
@@ -121,7 +121,7 @@ Or simply run the build script again:
 - Choose location and filename
 - Images saved as PNG format
 
-## 💡 Tips for Best Results
+## Tips for Best Results
 
 ### Prompt Writing
 - **Be specific**: "portrait of a young woman with blue eyes" vs "woman"
@@ -166,9 +166,9 @@ blurry, low quality, distorted, cartoon, deformed, ugly, bad anatomy, watermark
 | High quality | 768x768 | 30 | 8 | DPM++ 2M | Karras |
 | Fast (LCM) | 512x512 | 6 | 2 | LCM | Discrete |
 
-## 🛠️ Advanced Options
+## Advanced Options
 
-### ⚡ GPU Acceleration (CUDA)
+### GPU Acceleration (CUDA)
 
 For **10-20x faster generation** on NVIDIA GPUs:
 
@@ -224,7 +224,7 @@ For systems with limited RAM:
 - Close other applications
 - Generate at lower resolutions
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Build Issues
 
@@ -270,7 +270,7 @@ winget install Kitware.CMake
 - Ensure all dependencies built correctly
 - Try rebuilding from scratch
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Inference_of_diff/
@@ -286,7 +286,7 @@ Inference_of_diff/
 └── README.md                # This file
 ```
 
-## 📋 System Requirements
+## System Requirements
 
 ### Minimum
 - **OS**: Windows 10/11 64-bit
@@ -301,7 +301,7 @@ Inference_of_diff/
 - **GPU**: NVIDIA GPU with 6GB+ VRAM (for GPU mode)
 - **Storage**: SSD with 20GB+ free space
 
-## 🚀 Lightning AI / H100 GPU Support
+## Lightning AI / H100 GPU Support
 
 For **100x faster inference** on H100 GPU, see [LIGHTNING_AI.md](LIGHTNING_AI.md) for detailed setup instructions.
 
@@ -314,32 +314,13 @@ For **100x faster inference** on H100 GPU, see [LIGHTNING_AI.md](LIGHTNING_AI.md
 
 **Speed Improvement: ~50-100x faster with H100!**
 
-## 🔗 Credits
+## Credits
 
 - [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) - Inference engine
 - [Dear ImGui](https://github.com/ocornut/imgui) - GUI framework
 - [GLFW](https://www.glfw.org/) - Window management
 - [stb_image_write](https://github.com/nothings/stb) - Image saving
 
-## 📄 License
+## License
 
 See LICENSE file for details.
-
-## 🆘 Support
-
-Need help? Check these resources:
-
-1. **Troubleshooting section** above
-2. [stable-diffusion.cpp Issues](https://github.com/leejet/stable-diffusion.cpp/issues)
-3. Model documentation on [Hugging Face](https://huggingface.co/models)
-4. [Lightning AI Documentation](https://lightning.ai/docs) for GPU setup
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-**Happy Generating! 🎨✨**
-
-Made with ❤️ using C++ and ImGui. Special thanks to the [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) project and its contributors.
